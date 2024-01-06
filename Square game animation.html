@@ -1,0 +1,170 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: aqua;
+            }
+            div{
+               display:inline-block;
+            }
+            .a{
+                width:100px;
+              height:100px;
+              position:relative;
+            animation-name:A;
+            animation-duration:500s;
+             /* animation-delay:1s; */
+            }
+            .b{
+                width:100px;
+              height:100px;
+              position:relative;
+            animation-name:B;
+            animation-duration:5s;
+            animation-delay:1ms;
+            animation-iteration-count:infinite;
+          animation-direction:alternate;
+            }
+            .c{
+                width:100px;
+              height:100px;
+              position:relative;
+            animation-name:C;
+            animation-duration:9s;
+            animation-delay:1ms;
+           animation-iteration-count:infinite;
+          animation-direction:alternate;
+            }
+            .d{
+                width:100px;
+              height:100px;
+              position:relative;
+            animation-name:D;
+            animation-duration:7s;
+            animation-delay:1ms;
+           animation-iteration-count:infinite;
+          animation-direction:alternate;
+            }
+            .e{
+                width:100px;
+              height:100px;
+              position:relative;
+            animation-name:E;
+            animation-duration:10s;
+            animation-delay:1ms;
+           animation-iteration-count:infinite;
+          animation-direction:alternate;
+          
+            }
+            .f{
+                width:100px;
+              height:100px;
+               text-align: center;
+              position:relative;
+            animation-name:F;
+            animation-duration:500s; 
+            animation-delay:1ms;
+            animation-iteration-count:infinite;
+          animation-direction:alternate;
+            }
+           
+
+            /* Standard Syntax */
+            @keyframes A {
+                0% {
+                    background-color:green; top:200px; left:15px;  
+                }
+                25% {
+                    background-color:green; top:200px; left:15px;
+                }
+                50% {
+                    background-color:green; top:200px; left:15px;
+                }
+                75% {
+                    background-color:green; top:200px; left:15px;
+                }
+                100% {
+                    background-color:green; top:200px; left:15px;
+                }
+                
+            }
+             @keyframes B {
+                0% {
+                    background-color:red;   top:0px; left:200px;
+                }
+                
+                50% {
+                    background-color:red;   top:500px; left:200px;
+                }
+                100% {
+                    background-color:red;   top:0px; left:200px;
+                }
+                                             
+            }
+            
+            @keyframes C {
+                0% {
+                    background-color:red;   top:0px; left:300px;
+                }
+                
+                50% {
+                    background-color:red;   top:500px; left:300px;
+                }
+                100% {
+                    background-color:red;   top:0px; left:300px;
+                }
+            }
+            @keyframes D{
+                0% {
+                    background-color:red;   top:0px; left:400px;
+                }
+                
+                50% {
+                    background-color:red;   top:500px; left:400px;
+                }
+                100% {
+                    background-color:red;   top:0px; left:400px;
+                }
+            }
+            @keyframes E {
+                0% {
+                    background-color:red;   top:0px; left:500px;
+                }
+                
+                50% {
+                    background-color:red;   top:500px; left:500px;
+                }
+                100% {
+                    background-color:red;   top:0px; left:500px;
+                }
+                
+            }
+         @keyframes F {
+                0% {
+                    background-color:green; top:180px; left:710px;   
+                }
+                25% {
+                    background-color:green;top:180px; left:710px;
+                }
+                50% {
+                    background-color:green;top:180px; left:710px;
+                }
+                75% {
+                    background-color:green;top:180px; left:710px;
+                }
+                100% {
+                    background-color:green;top:180px; left:710px;
+                }
+                
+            } 
+        </style>
+    </head>
+    <body>
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+        <div class="e"></div>
+        <div class="f"><h1>Goal</h1></div>
+    </body>
+</html>
